@@ -7,6 +7,8 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    height: 90vh;
   }
 
   .maindiv {
@@ -15,7 +17,7 @@ main {
     height: 450px;
     max-width: 300px;
     min-width: 300px;
-    margin: 25px 0 25px  ;
+    margin: 25px 0 25px;
     border-radius: 15px;
     
   }
@@ -45,14 +47,6 @@ main {
     color: hsl(220, 15%, 55%);
     margin: 13px 24px 5px 15px;
   }
-  
-
-  /* .shrink{
-    -webkit-transform:scale(0.5);
-    -moz-transform:scale(0.5);
-    -ms-transform:scale(0.5);
-    transform:scale(0.5);
-    } */
 
   @media (min-width: 600px) {
     main {
